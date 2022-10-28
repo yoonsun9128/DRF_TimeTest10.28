@@ -1,11 +1,11 @@
-from rest_framework import serializers
-from articles.models import Article
+# from rest_framework import serializers
+# from articles.models import Article
 
-class ArticleSerializer(serializers.ModelSerializer):
-    # user = serializers.SerializerMethodField()
-    # def get_user(self, obj):
-    #     return obj.user.email
+# class ArticleSerializer(serializers.ModelSerializer):
+#     # user = serializers.SerializerMethodField()
+#     # def get_user(self, obj):
+#     #     return obj.user.email
 
-    class Meta:
-        model = Article
-        fields = '__all__'
+#     class Meta:
+#         model = Article
+#         fields = '__all__'
